@@ -1,0 +1,28 @@
+.highlights {
+    gap: 10px;
+    display: grid !important;
+    grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+}
+
+.highlight{
+    height: 145px;
+    display: grid;
+    border-radius: 10px;
+    background-color: #202028;
+    font-size: 12px;
+    min-width: 130px;
+    max-width: 300px;
+    p {
+        margin-bottom: 0px !important;
+    }
+    div  {
+        span {
+            font-size: 25px;
+            font-weight: bold;
+        }
+        div {
+            align-items: end;
+            padding-bottom: 5px;
+        }
+    }
+}

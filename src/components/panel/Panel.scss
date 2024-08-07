@@ -1,0 +1,20 @@
+.panel {
+    background-color: #202028;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    height: 100%;
+    z-index: 5;
+    div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgba(146,146,148,255);
+        font-size: 28px;
+        &:first-child {
+            margin-top: 20px !important;
+            color: #7193fe;
+            border-left: 4px solid #7193fe;
+        }
+    }
+}

@@ -1,0 +1,42 @@
+.home {
+    background-color: #141416;
+    padding: 0;
+}
+
+.panel-height {
+    position: fixed;
+    margin-top: calc(40px + 2rem);
+    height: calc(100vh - 40px);
+    width: 90px;
+}
+
+.home-content {
+    margin-top: calc(40px + 2rem);
+    margin-left: 90px;
+    width: calc(100vw - 90px);
+}
+
+.column-gap {
+    padding: 15px;
+}
+
+@media (max-width: 564px) {
+    .column-gap {
+        padding: 15px;
+    }
+
+    .home-content {    
+        margin-left: 60px;
+        width: calc(100vw - 60px);
+    }
+
+    .panel-height {
+        width: 60px;
+    }
+}
+
+@media (max-width: 991px) {
+    .column-gap {
+        padding: 10px;
+    }
+}
